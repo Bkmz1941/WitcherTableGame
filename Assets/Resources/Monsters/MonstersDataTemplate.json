@@ -1,0 +1,37 @@
+{
+    "Uuid": 1,
+    "Name": "",
+    "Image": "Monsters/Images/СemeteryWoman",
+    "Weaknesses": [
+        {
+            "Uuid": 1,
+            "Text": "",
+            "Effect": ""
+        },
+        {
+            "Uuid": 2,
+            "Text": "",
+            "Effect": ""
+        },
+        {
+            "Uuid": 3,
+            "Text": "",
+            "Effect": ""
+        },
+        {
+            "Uuid": 4,
+            "Text": "",
+            "Effect": ""
+        },
+        {
+            "Uuid": 5,
+            "Text": "",
+            "Effect": ""
+        },
+        {
+            "Uuid": 6,
+            "Text": "",
+            "Effect": ""
+        }
+    ]
+}

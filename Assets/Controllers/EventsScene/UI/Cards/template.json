@@ -1,0 +1,14 @@
+{
+    "Uuid": 10,
+    "Story": "",
+    "VariantA": "",
+    "VariantB": "",
+    "DecisionA": {
+        "Text": "",
+        "Effects": []
+    },
+    "DecisionB": {
+        "Text": "",
+        "Effects": []
+    }
+}

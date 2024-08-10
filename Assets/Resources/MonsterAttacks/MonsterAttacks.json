@@ -1,0 +1,292 @@
+{
+    "Items": [
+        {
+            "Uuid": 1,
+            "Type": "Claws",
+            "Damage": 3,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 2,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает урон, равный уровню своего навыка защиты"
+        },
+        {
+            "Uuid": 3,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает урон, равный уровню монстра:\n1 - 3 урона\n2 - 4 урона\n3 - 5 урона"
+        },
+        {
+            "Uuid": 4,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок снижает свой навык защиты на 1, а также получает урон, равный уровню монстра:\n1 - 0 урона\n2 - 1 урона\n3 - 2 урона"
+        },
+        {
+            "Uuid": 5,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок убирает из игры 1 карту из своей руки (если в руке нет карт - верхнюю из своей колоды)"
+        },
+        {
+            "Uuid": 6,
+            "Type": "Bite",
+            "Damage": 3,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 7,
+            "Type": "Claws",
+            "Damage": 3,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 5 урона"
+        },
+        {
+            "Uuid": 7,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает урон, равный уровню своего навыка алхимии"
+        },
+        {
+            "Uuid": 8,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
+        },
+        {
+            "Uuid": 9,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 4 урона"
+        },
+        {
+            "Uuid": 10,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 4 урона"
+        },
+        {
+            "Uuid": 11,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок понижает свой навык сражения на 1, а также получает урон, равный уровню монстра:\n1 - 0 урона\n2 - 1 урона\n3 - 2 урона"
+        },
+        {
+            "Uuid": 12,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
+        },
+        {
+            "Uuid": 13,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает урон, равный уровню монстра:\n1 - 3 урона\n2 - 4 урона\n3 - 5 урона"
+        },
+        {
+            "Uuid": 14,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 15,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 5 урона"
+        },
+        {
+            "Uuid": 16,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 5 урона"
+        },
+        {
+            "Uuid": 17,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 2 урона"
+        },
+        {
+            "Uuid": 18,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 19,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 4 урона"
+        },
+        {
+            "Uuid": 20,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 21,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 5 урона"
+        },
+        {
+            "Uuid": 22,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок убирает из игры 1 карту из своей руки (если в руке нет карт - верхнюю карту из своей колоды)"
+        },
+        {
+            "Uuid": 23,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 24,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
+        },
+        {
+            "Uuid": 25,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 3 урона"
+        },
+        {
+            "Uuid": 26,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 4 урона"
+        },
+        {
+            "Uuid": 27,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает урон, равный уровню своей специализации"
+        },
+        {
+            "Uuid": 28,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
+        },
+        {
+            "Uuid": 29,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает 4 урона"
+        },
+        {
+            "Uuid": 30,
+            "Type": "Claws",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок убирает из игры 1 карту из своей руки (если в руке нет карт - верхнюю карту из своей колоды)"
+        },
+        {
+            "Uuid": 31,
+            "Type": "Bite",
+            "Damage": null,
+            "Special": false,
+            "SpecialType": null,
+            "Text": "Игрок получает урон, равный уровню своего навыка сражения"
+        },
+        {
+            "Uuid": 31,
+            "Type": "Special",
+            "Damage": null,
+            "Special": true,
+            "SpecialType": 1,
+            "Text": null
+        },
+        {
+            "Uuid": 32,
+            "Type": "Special",
+            "Damage": null,
+            "Special": true,
+            "SpecialType": 2,
+            "Text": null
+        },
+        {
+            "Uuid": 33,
+            "Type": "Special",
+            "Damage": null,
+            "Special": true,
+            "SpecialType": 3,
+            "Text": null
+        },
+        {
+            "Uuid": 34,
+            "Type": "Special",
+            "Damage": null,
+            "Special": true,
+            "SpecialType": 4,
+            "Text": null
+        }
+    ]
+}

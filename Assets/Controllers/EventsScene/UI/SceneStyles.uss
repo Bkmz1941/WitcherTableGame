@@ -1,0 +1,174 @@
+.tabs-block {
+    background-color: lightcoral;
+    height: 100px;
+}
+
+.tabs-block_header {
+    background-color: lightgray;
+    height: 100px;
+    max-height: 100px;
+}
+
+.tabs-block_content {
+    background-color: lightblue;
+}
+
+.content-cards {
+}
+
+.decision-effect-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.decision-effect {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    /*padding: 0 16px;*/
+}
+
+.decision-effect-image {
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    background-size: contain;
+}
+
+.decision-effect Label {
+    flex: 1;
+    font-size: 32px;
+    margin-left: 16px;
+    flex-wrap: wrap;
+    white-space: normal;
+}
+
+.quest-location {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quest-location_image {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+    background-size: contain;
+}
+
+.quest-location-replace-btn {
+    margin-left: 16px;
+}
+
+.monster-weakness-effect_button {
+    font-size: 40px;
+    background-image: resource('Others/wooden_btn');
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    padding: 16px 0;
+}
+
+.simple_button {
+    font-size: 40px;
+    background-image: resource('Others/wooden_btn');
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0;
+    margin-bottom: 16px;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+}
+
+.simple_button Label {
+    translate: 0 -7px;
+}
+
+.monster-image {
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.player-box {
+    margin-right: 16px;
+}
+
+.select-player-container_root {
+    margin-top: 32px;
+    display: none;
+}
+
+.select-player-container_root Label {
+    font-size: 32px;
+    padding-bottom: 0;
+    padding-left: 16px;
+}
+
+.select-player-container {
+    display: flex;
+    flex-direction: row;
+    padding: 4px 16px;
+    width: 100%;
+}
+
+.select-player-container_submit {
+    font-size: 32px;
+    flex-grow: 0;
+    min-width: 250px;
+    max-width: 250px;
+    background-image: resource('Others/wooden_btn');
+    background-color: rgba(255, 255, 255, 0);
+    color: #FFF;
+}
+
+.select-player-container_submit Label {
+    translate: 0 -7px;
+}
+
+.select-player-container_dropdown {
+    font-size: 32px;
+    flex-grow: 0;
+    min-width: 350px;
+    max-width: 350px;
+}
+
+.player-view_quests {
+    padding-left: 16px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.player-view_quest {
+    padding: 8px 32px;
+    background-image: resource('Others/wooden_bg');
+    background-color: rgba(255, 255, 255, 0);
+    border-width: 0;
+    margin-bottom: 16px;
+}
+
+.quest-player-btn {
+    font-size: 32px;
+    flex-grow: 0;
+    min-width: 250px;
+    max-width: 250px;
+    background-image: resource('Others/wooden_btn');
+    color: #FFF;
+}
+
+.quest-player-actions {
+    margin-top: 32px;
+    padding: 0 16px;
+}
+
+.quest-player-btn Label {
+    translate: 0 -7px;
+}
+
+.player-view_quest-title {
+    font-size: 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -1,0 +1,46 @@
+{
+    "Items": [
+        {
+            "Uuid": 1,
+            "Type": "Mountain",
+            "Image": "Locations/Images/mountain",
+            "Number": 2,
+            "Name": "Хенгфорс"
+        },
+        {
+            "Uuid": 1,
+            "Type": "Mountain",
+            "Image": "Locations/Images/mountain",
+            "Number": 3,
+            "Name": "Каэр Морхен"
+        },
+        {
+            "Uuid": 2,
+            "Type": "Mountain",
+            "Image": "Locations/Images/mountain",
+            "Number": 9,
+            "Name": "Цинтра"
+        },
+        {
+            "Uuid": 3,
+            "Type": "Mountain",
+            "Image": "Locations/Images/mountain",
+            "Number": 11,
+            "Name": "Боклер"
+        },
+        {
+            "Uuid": 4,
+            "Type": "Mountain",
+            "Image": "Locations/Images/mountain",
+            "Number": 13,
+            "Name": "Долдет"
+        },
+        {
+            "Uuid": 5,
+            "Type": "Mountain",
+            "Image": "Locations/Images/mountain",
+            "Number": 18,
+            "Name": "Ард Модрон"
+        }
+    ]
+}

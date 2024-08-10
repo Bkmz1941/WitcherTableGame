@@ -1,0 +1,28 @@
+{
+    "Items": [
+        {
+            "Uuid": 1,
+            "Name": "Илья",
+            "Avatar": "Players/Avatars/Ilya",
+            "Quests": []
+        },
+        {
+            "Uuid": 1,
+            "Name": "Аня",
+            "Avatar": "Players/Avatars/Anna",
+            "Quests": []
+        },
+        {
+            "Uuid": 3,
+            "Name": "Полина",
+            "Avatar": "Players/Avatars/Polina",
+            "Quests": []
+        },
+        {
+            "Uuid": 4,
+            "Name": "Костя",
+            "Avatar": "Players/Avatars/Kosta",
+            "Quests": []
+        }
+    ]
+}

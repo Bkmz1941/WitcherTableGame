@@ -1,0 +1,46 @@
+{
+    "Items": [
+        {
+            "Uuid": 1,
+            "Type": "Water",
+            "Image": "Locations/Images/water",
+            "Number": 1,
+            "Name": "Каэр Серен"
+        },
+        {
+            "Uuid": 2,
+            "Type": "Water",
+            "Image": "Locations/Images/water",
+            "Number": 4,
+            "Name": "Бан Ард"
+        },
+        {
+            "Uuid": 3,
+            "Type": "Water",
+            "Image": "Locations/Images/water",
+            "Number": 5,
+            "Name": "Цидарис"
+        },
+        {
+            "Uuid": 4,
+            "Type": "Water",
+            "Image": "Locations/Images/water",
+            "Number": 12,
+            "Name": "Гленмор"
+        },
+        {
+            "Uuid": 5,
+            "Type": "Water",
+            "Image": "Locations/Images/water",
+            "Number": 14,
+            "Name": "Лок Ихор"
+        },
+        {
+            "Uuid": 6,
+            "Type": "Water",
+            "Image": "Locations/Images/water",
+            "Number": 15,
+            "Name": "Гортур Гваэд"
+        }
+    ]
+}

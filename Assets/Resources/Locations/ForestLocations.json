@@ -1,0 +1,46 @@
+{
+    "Items": [
+        {
+            "Uuid": 1,
+            "Type": "Forest",
+            "Image": "Locations/Images/Forest",
+            "Number": 6,
+            "Name": "Новиград"
+        },
+        {
+            "Uuid": 2,
+            "Type": "Forest",
+            "Image": "Locations/Images/forest",
+            "Number": 7,
+            "Name": "Вызима"
+        },
+        {
+            "Uuid": 3,
+            "Type": "Forest",
+            "Image": "Locations/Images/forest",
+            "Number": 8,
+            "Name": "Венгерберг"
+        },
+        {
+            "Uuid": 4,
+            "Type": "Forest",
+            "Image": "Locations/Images/forest",
+            "Number": 10,
+            "Name": "Хаэрн Кадух"
+        },
+        {
+            "Uuid": 5,
+            "Type": "Forest",
+            "Image": "Locations/Images/forest",
+            "Number": 16,
+            "Name": "Дувод"
+        },
+        {
+            "Uuid": 6,
+            "Type": "Forest",
+            "Image": "Locations/Images/forest",
+            "Number": 17,
+            "Name": "Стигга"
+        }
+    ]
+}

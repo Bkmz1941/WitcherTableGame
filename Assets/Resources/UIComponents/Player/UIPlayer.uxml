@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UIComponents/Player/UIPlayer.uss?fileID=7433441132597879392&amp;guid=155103e5f44314e50956d450ab47905c&amp;type=3#UIPlayer" />
+    <engine:VisualElement name="UIPlayer" class="player-box" style="flex-grow: 1;">
+        <engine:Label text="Label" name="UIPlayerName" style="font-size: 32px; -unity-text-align: upper-left; text-overflow: ellipsis; align-self: stretch; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+        <engine:VisualElement name="UIPlayerAvatar" class="player-avatar" style="flex-grow: 1; max-width: 200px; min-width: 200px; max-height: 200px; min-height: 200px; align-items: stretch; align-content: center; align-self: center; margin-top: 16px; background-color: rgba(76, 3, 3, 0); -unity-background-scale-mode: scale-to-fit;" />
+    </engine:VisualElement>
+</engine:UXML>

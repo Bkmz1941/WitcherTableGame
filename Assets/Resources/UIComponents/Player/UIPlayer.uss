@@ -1,0 +1,7 @@
+.player-box {
+    margin-right: 16px;
+}
+
+.player-avatar {
+    background-color: rgba(255, 255, 255, 0);
+}
