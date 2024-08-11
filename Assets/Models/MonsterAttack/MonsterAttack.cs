@@ -12,6 +12,7 @@ namespace Models.MonsterAttack
         public bool Special;
         public int SpecialLevel;
         public string Text;
+        public string Title;
 
         public MonsterAttack(
             int Uuid,
@@ -19,7 +20,8 @@ namespace Models.MonsterAttack
             int Damage,
             bool Special,
             int SpecialLevel,
-            string Text
+            string Text,
+            string Title
         )
         {
             Uuid = Uuid;
@@ -28,6 +30,7 @@ namespace Models.MonsterAttack
             Special = Special;
             SpecialLevel = SpecialLevel;
             Text = Text;
+            Title = Title;
         }
     }
 }

@@ -2,12 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Controllers.EventsScene.models.Monster;
+using Models.MonsterAttack;
+using Resources.MonsterAttacks;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UIElements;
 using Utils.JsonParser;
 
-namespace Controllers.EventsScene.UI.Controllers
+namespace Controllers.EventsScene.UI.Controllers.MonstersTab
 {
     public class MonstersTabController : MonoBehaviour
     {
@@ -16,13 +18,54 @@ namespace Controllers.EventsScene.UI.Controllers
         private MonsterAttackProcessController _monsterAttackProcessController;
         private VisualElement _rootElement;
         private List<Monster> _monsters = new List<Monster>();
+        private List<MonsterAttackSkill> monsterTempEffects = new List<MonsterAttackSkill>();
         private Monster _currentMonster;
 
+        public void AddElementTempEffects(MonsterAttackSkill attack)
+        {
+            monsterTempEffects.Add(attack);
+        }
+
+        public void UpdateListAttackEffects()
+        {
+            var listEl = _rootElement.Q<VisualElement>("MonsterAttackEffectsList");
+            listEl.Clear();
+            foreach (var effect in monsterTempEffects)
+            {
+                var effectEl = new VisualElement();
+                var effectClose = new Button();
+                effectClose.AddToClassList("monster-attack-effect_close");
+
+                effectClose.clicked += () =>
+                {
+                    monsterTempEffects.Remove(effect);
+                    UpdateListAttackEffects();
+                };
+                
+                effectEl.AddToClassList("monster-attack-effect");
+                var effectElLabelTitle = new Label(effect.Title);
+                effectElLabelTitle.AddToClassList("monster-attack-effect_title");
+                var effectElLabelText = new Label(effect.Text);
+                effectElLabelText.AddToClassList("monster-attack-effect_text");
+
+                effectEl.Add(effectElLabelTitle);
+                effectEl.Add(effectElLabelText);
+                effectEl.Add(effectClose);
+                listEl.Add(effectEl);
+            }
+        }
+
+        public void RemoveAndUpdateElementTempEffects()
+        {
+            monsterTempEffects.Clear();
+            var listEl = _rootElement.Q<VisualElement>("MonsterAttackEffectsList");
+            listEl.Clear();
+        }
 
         private void OnEnable()
         {
             _rootElement = uiDoc.rootVisualElement;
-            _monsterAttackProcessController = new MonsterAttackProcessController(_rootElement);
+            _monsterAttackProcessController = new MonsterAttackProcessController(_rootElement, this);
 
             FetchMonstersData();
             SetCurrentMonster(_monsters[0].Uuid);
@@ -35,11 +78,16 @@ namespace Controllers.EventsScene.UI.Controllers
         {
             var monsterAttackView = _rootElement.Q<VisualElement>("MonsterAttackView");
             monsterAttackView.style.display = DisplayStyle.None;
-            
+
+            var monsterAttackEffectsBlock = _rootElement.Q<VisualElement>("MonsterAttackEffectsBlock");
             var monsterActiveStateBlock = _rootElement.Q<VisualElement>("MonsterActiveStateBlock");
+            monsterAttackEffectsBlock.style.display = DisplayStyle.None;
             monsterActiveStateBlock.style.display = DisplayStyle.None;
+            var monsterActiveStatsBlock = _rootElement.Q<VisualElement>("MonsterAttackStatsBlock");
+            monsterActiveStatsBlock.style.display = DisplayStyle.None;
             var trailedToggleWrapper = _rootElement.Q<VisualElement>("MonsterWasTrailedToggleWrapper");
             var trailedToggle = _rootElement.Q<Toggle>("MonsterWasTrailedToggle");
+            trailedToggle.SetEnabled(false);
             trailedToggleWrapper.RegisterCallback<MouseDownEvent>((evt) =>
             {
                 trailedToggle.value = !trailedToggle.value;
@@ -95,8 +143,10 @@ namespace Controllers.EventsScene.UI.Controllers
 
         private void DrawMonster()
         {
-            var monsterImage = _rootElement.Q<VisualElement>(name: "monsterImage");
+            var monsterImage = _rootElement.Q<VisualElement>(name: "monsterImageWrapper");
+            var MonsterImageLifes = _rootElement.Q<Label>(name: "MonsterImageLifesText");
             monsterImage.style.backgroundImage = UnityEngine.Resources.Load<Texture2D>(_currentMonster.Image);
+            MonsterImageLifes.text = _currentMonster.Lives.ToString();
 
             DrawMonsterWeaknessesContent();
         }

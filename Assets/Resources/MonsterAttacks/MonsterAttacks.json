@@ -5,7 +5,8 @@
             "Type": "Claws",
             "Damage": 3,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -13,7 +14,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает урон, равный уровню своего навыка защиты"
         },
         {
@@ -21,7 +23,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает урон, равный уровню монстра:\n1 - 3 урона\n2 - 4 урона\n3 - 5 урона"
         },
         {
@@ -29,7 +32,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок снижает свой навык защиты на 1, а также получает урон, равный уровню монстра:\n1 - 0 урона\n2 - 1 урона\n3 - 2 урона"
         },
         {
@@ -37,7 +41,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок убирает из игры 1 карту из своей руки (если в руке нет карт - верхнюю из своей колоды)"
         },
         {
@@ -45,7 +50,8 @@
             "Type": "Bite",
             "Damage": 3,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -53,7 +59,8 @@
             "Type": "Claws",
             "Damage": 3,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 5 урона"
         },
         {
@@ -61,7 +68,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает урон, равный уровню своего навыка алхимии"
         },
         {
@@ -69,7 +77,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
         },
         {
@@ -77,7 +86,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 4 урона"
         },
         {
@@ -85,7 +95,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 4 урона"
         },
         {
@@ -93,7 +104,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок понижает свой навык сражения на 1, а также получает урон, равный уровню монстра:\n1 - 0 урона\n2 - 1 урона\n3 - 2 урона"
         },
         {
@@ -101,7 +113,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
         },
         {
@@ -109,7 +122,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает урон, равный уровню монстра:\n1 - 3 урона\n2 - 4 урона\n3 - 5 урона"
         },
         {
@@ -117,7 +131,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -125,7 +140,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 5 урона"
         },
         {
@@ -133,7 +149,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 5 урона"
         },
         {
@@ -141,7 +158,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 2 урона"
         },
         {
@@ -149,7 +167,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -157,7 +176,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 4 урона"
         },
         {
@@ -165,7 +185,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -173,7 +194,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 5 урона"
         },
         {
@@ -181,7 +203,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок убирает из игры 1 карту из своей руки (если в руке нет карт - верхнюю карту из своей колоды)"
         },
         {
@@ -189,7 +212,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -197,7 +221,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
         },
         {
@@ -205,7 +230,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 3 урона"
         },
         {
@@ -213,7 +239,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок получает 4 урона"
         },
         {
@@ -221,7 +248,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает урон, равный уровню своей специализации"
         },
         {
@@ -229,7 +257,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок сбрасывает случайные карты из своей руки (если в руке нет карт - с верха своей колоды) согласно уровню монстра:\n1 - 1\n2 - 2\n3 - 3"
         },
         {
@@ -237,7 +266,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает 4 урона"
         },
         {
@@ -245,7 +275,8 @@
             "Type": "Claws",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Удар",
             "Text": "Игрок убирает из игры 1 карту из своей руки (если в руке нет карт - верхнюю карту из своей колоды)"
         },
         {
@@ -253,7 +284,8 @@
             "Type": "Bite",
             "Damage": null,
             "Special": false,
-            "SpecialType": null,
+            "SpecialLevel": null,
+            "Title": "Укус",
             "Text": "Игрок получает урон, равный уровню своего навыка сражения"
         },
         {
@@ -261,7 +293,8 @@
             "Type": "Special",
             "Damage": null,
             "Special": true,
-            "SpecialType": 1,
+            "SpecialLevel": 1,
+            "Title": null,
             "Text": null
         },
         {
@@ -269,7 +302,8 @@
             "Type": "Special",
             "Damage": null,
             "Special": true,
-            "SpecialType": 2,
+            "SpecialLevel": 2,
+            "Title": null,
             "Text": null
         },
         {
@@ -277,7 +311,8 @@
             "Type": "Special",
             "Damage": null,
             "Special": true,
-            "SpecialType": 3,
+            "SpecialLevel": 3,
+            "Title": null,
             "Text": null
         },
         {
@@ -285,7 +320,8 @@
             "Type": "Special",
             "Damage": null,
             "Special": true,
-            "SpecialType": 4,
+            "SpecialLevel": 4,
+            "Title": null,
             "Text": null
         }
     ]

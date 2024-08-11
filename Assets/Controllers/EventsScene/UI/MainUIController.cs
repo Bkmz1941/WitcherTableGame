@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using Controllers.EventsScene.models;
 using Controllers.EventsScene.UI.Classes;
 using Controllers.EventsScene.UI.Controllers;
+using Controllers.EventsScene.UI.Controllers.MonstersTab;
 using Controllers.EventsScene.UI.Enums;
 using UnityEngine;
 using UnityEngine.Serialization;

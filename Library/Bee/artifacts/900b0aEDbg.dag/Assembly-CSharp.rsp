@@ -409,6 +409,7 @@
 "Assets/Controllers/EventsScene/EventsMainCameraController.cs"
 "Assets/Controllers/EventsScene/Models/Players/Player.cs"
 "Assets/Controllers/EventsScene/UI/Controllers/MonstersTab/MonsterAttackProcessController.cs"
+"Assets/Controllers/EventsScene/UI/Controllers/MonstersTab/MonsterAttackStartViewController.cs"
 "Assets/Controllers/EventsScene/UI/Controllers/MonstersTab/MonstersTabController.cs"
 "Assets/Controllers/EventsScene/UI/Controllers/PlayersTabController.cs"
 "Assets/Controllers/EventsScene/UI/Controllers/PlayerViewController.cs"

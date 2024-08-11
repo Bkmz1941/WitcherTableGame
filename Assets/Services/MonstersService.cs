@@ -25,12 +25,16 @@ namespace Services
 
         public void GenerateMonsterAttackPool(int size)
         {
+            monsterAttacksPool.Clear();
+            var copyArray = new List<MonsterAttack>();
+            foreach (var el in monsterAttacks) copyArray.Add(el);
+
             int i = 0;
             while (i != size)
             {
-                var random = Random.Range(0, monsterAttacks.Count - 1);
-                var attack = monsterAttacks.ElementAt(random);
-                monsterAttacks.Remove(attack);
+                var random = Random.Range(0, copyArray.Count - 1);
+                var attack = copyArray.ElementAt(random);
+                copyArray.Remove(attack);
                 monsterAttacksPool.Add(attack);
                 i++;
             }
@@ -38,13 +42,18 @@ namespace Services
 
         public MonsterAttack GetMonsterAttackFromPool()
         {
-            var attack = monsterAttacks.ElementAt(monsterAttacks.Count - 1);
-            monsterAttacks.Remove(attack);
-            return attack;
+            return monsterAttacksPool.ElementAt(monsterAttacksPool.Count - 1);
         }
 
-        public void ReturnMonsterAttackToPool()
+        public void AddRandomMonsterCardToPool()
         {
+            var random = Random.Range(0, monsterAttacks.Count - 1);
+            monsterAttacksPool.Add(monsterAttacks.ElementAt(random));
+        }
+
+        public void ReturnMonsterAttack(MonsterAttack attack)
+        {
+            monsterAttacksPool.Remove(attack);
         }
 
         private void FetchMonsterAttackData()

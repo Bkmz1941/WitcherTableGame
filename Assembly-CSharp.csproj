@@ -55,6 +55,7 @@
     <Compile Include="Assets/Controllers/EventsScene/UI/Controllers/MonstersTab/MonstersTabController.cs" />
     <Compile Include="Assets/Services/UsersService.cs" />
     <Compile Include="Assets/Controllers/EventsScene/UI/Controllers/PlayerViewController.cs" />
+    <Compile Include="Assets/Controllers/EventsScene/UI/Controllers/MonstersTab/MonsterAttackStartViewController.cs" />
     <Compile Include="Assets/Controllers/EventsScene/UI/Controllers/PlayersTabController.cs" />
     <Compile Include="Assets/Controllers/EventsScene/UI/MainUIContentController.cs" />
     <Compile Include="Assets/Models/Location/LocationType.cs" />
